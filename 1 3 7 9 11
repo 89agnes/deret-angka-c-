@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int a, b;
+for (a = 1; a <= 9; a+=2){
+if (a == 5){
+a= a+2;
+}
+for (b=1; b <= a; b+=2){
+if(b == 5){
+b = b +2;
+}
+cout << b << " ";
+if (b == 9){
+cout << b + 2;
+}
+}
+cout << endl;
+}
+return 0;
+}
